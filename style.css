@@ -46,7 +46,7 @@ a {
     margin-bottom : 20px;
 }
 
-h1 {
+h1, h2 {
     margin-top : 0px;
     margin-bottom : 8px;
 
@@ -146,7 +146,7 @@ form{
     align-items: center;
 }
 
-h2 {
+h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -273,7 +273,7 @@ haut du cercle aligné avec le texte car dans le même bloc mais j'ai réussi à
 }
 
 /*marge bas de 5px au lieu de 9 sur la maquette car la taille du champs h3 est de 19 et pas de 15 */
-h3 {
+h4 {
     margin :0px 0px 5px 0px;
 
     font-family: 'Raleway';
