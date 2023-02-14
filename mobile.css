@@ -1,0 +1,175 @@
+@media all and (max-width: 768px) {
+
+    body {
+        margin : 0px;
+        padding : 0;
+    }
+
+    .En-tete {
+        flex-direction : column;
+        margin : 0px 0px 31px 0px;
+    }
+
+    #logo {
+        margin: 0 auto;
+        margin-top : 21px;
+    }
+
+    .classe_titres {
+        display : flex;
+    }
+
+    .titre_En-tete {
+        width : 50%;
+        margin : 48.56px 0px 0px 0px;
+        padding : 0px 0px 23.59px 0px;
+        border-bottom: 3px #F2F2F2 solid;
+    }
+
+    .titre_En-tete:hover {
+        color: #0065FC;
+        border-top : 0px;
+        border-bottom: 3px #0065FC solid;
+    }
+
+    .Acceuil {
+        margin-left : 20px;
+        margin-bottom : 36px;
+        width : 79.5%;
+    }
+        
+    .Recherche {
+        margin-left : 22px;
+        margin-bottom : 34px;
+    }
+
+    #bouton_Rechercher {
+        display : none;
+    }
+
+    #icone_loupe {
+        display :inline-block;
+
+    }
+
+    .Filtres {
+        margin-left : 20px;
+        margin-bottom : 40px;
+        /*30 en bas car 13 des boutons*/
+        width : 89.07%;
+
+        flex-wrap: wrap;
+        justify-content : space-between;
+        
+    }
+    
+    #titre_Filtres {
+        width : 100%;
+        margin-bottom : 15px;
+    }
+
+    .boutons_Filtres {
+        width : 47.9%;
+        margin-bottom : 17px;
+        text-align: start;
+        padding-left :13px;
+        padding-right:0px;
+
+        font-size: 11px;
+    }
+
+    .icones_Filtres {
+        padding-right : 5px;
+    }
+
+    .Nombre_logements {
+        margin-left: 20px;
+        margin-bottom : 53px;
+        width : 89.07%;
+    }
+
+    .deskstop {
+        flex-direction : column-reverse;
+    }
+
+    .Hebergements_Populaires {
+        padding : 28px 20px 47px 20px;
+        width : auto;
+        margin-left : 0px;
+        border-radius: 0%;
+    }
+    
+    .Annonces_Populaires {
+        width : 100%
+    }
+
+    .Annonce_Populaire {
+        margin-bottom :11px;
+    }
+    
+    .photo_Populaire {
+        width: 38.02%;
+        height: 134px;
+    }
+    
+    .contenu_Populaire {
+        width : 50.60%;
+    }
+
+    .Hebergements_Marseille {
+        padding : 26px 20px 0px 20px;
+        width : auto;
+        background: #FFFFFF;
+        border-radius : 0%;
+    }
+
+    .Annonces_Marseille {
+        flex-direction : column;
+        margin-top : 11px;
+    }
+    
+    .Annonce_Hebergement {
+        width : 98%;
+    /*98 à cause de la bordure */
+
+        margin-bottom : 12px;
+    }
+        
+    #Afficher_plus {
+        display : none;
+    }
+
+    .Activites_Marseille {
+        padding : 0px 20px 0px 20px;
+        margin-bottom : 80px;
+        width : auto;
+    }
+    
+    .Annonces_Activites {
+        margin-top : 24px;
+        flex-direction : column;
+    }
+    
+    .Annonce_Activite {
+        width : 100%;
+        margin-bottom : 24px;
+    }
+    
+    .photo_Activite {
+        height : 134px;
+    }
+
+    #titre_section_Activites{
+        height : 30px;
+        width : 200px;
+    }
+
+    footer {
+        padding : 45px 0px 21px 30px;
+        flex-direction : column;
+    }
+
+    .colonne_footer {
+        margin-bottom : 40px;
+    }
+}

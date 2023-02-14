@@ -1,0 +1,432 @@
+body {
+    font-family: 'Raleway';
+    margin :44px auto 0px auto;
+    padding : 0px 50px 0px 50px;
+    max-width : 1400px;
+}
+
+.En-tete {
+    max-width : 1402px;
+    margin : 0px -7px 63px 5px;
+/*marge droite 12 pour prendre en compte le padding 50 du body et marge 17 des titres */
+
+    display : flex;
+    justify-content : space-between;
+}
+
+#logo {
+    width: 61.09px;
+    height: 19px;
+}
+
+.titre_En-tete {
+    margin-right : 17px;
+    padding-top : 42px;
+    padding-left : 25px;
+    padding-right : 25px;
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+a {
+    text-decoration : none;
+    color: #000000;
+}
+
+.titre_En-tete:hover {
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+}
+
+.Acceuil {
+    margin-left : 5px;
+    margin-bottom : 20px;
+}
+
+h1 {
+    margin-top : 0px;
+    margin-bottom : 8px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+p {
+    margin : 0px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.Recherche {
+    display : flex;
+    margin-left : 5px;
+    margin-bottom : 32px;
+}
+
+form{
+    display : flex;
+}
+
+#icone_localisation {
+    padding: 16px 18px 15px 18px;
+
+    background: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#champ_Destination {
+    width : 100%;
+    padding : 13px 0px 13px 17px;
+
+    border-top: 1px solid #F2F2F2;
+    border-bottom : 1px solid #F2F2F2;
+    border-left : 0px;
+    border-right :0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+#champ_Destination::placeholder  {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+#bouton_Rechercher {
+    width: 132px;
+    height: 50px;
+
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#icone_loupe {
+    display : none;
+    padding : 16px;
+
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    color: #FFFFFF;
+}
+
+.Filtres {
+    margin-left: 12px;
+    margin-bottom: 38px;
+    width : 100%;
+    max-width: 914px;
+    display: flex; 
+    justify-content : space-between;
+    align-items: center;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    margin : 0px;
+}
+
+.boutons_Filtres {
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    background: #FFFFFF;
+    padding-left : 20px;
+    padding-right : 20px;
+    height : 48px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20.83px;
+    color: #000000;
+}
+
+.boutons_Filtres:hover {
+    background: #DEEBFF;
+}
+
+.icones_Filtres {
+    padding-right : 10px;
+    color: #0065FC;
+}
+
+.Nombre_logements {
+    margin-left : 9px;
+    margin-bottom : 34px;
+    height : 19px;
+/*34 pour prendre en compte les 3px de décalage du bas du cercle de l'icone info*/
+    display :flex;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+/* Difficile de réaliser le cercle autour du i donc j'y suis allé par tatonnement tout en respectant la taille 24*24
+haut du cercle aligné avec le texte car dans le même bloc mais j'ai réussi à décaler en surelevant un peu grâce à position : relative puis bottom*/
+#icone_info {
+    position :relative;
+    bottom: 3px;
+    padding : 10.4px 9.3px 11px 9.3px;
+    margin-right :11px;
+
+    color: #0065FC;
+    border: 1px solid #D9D9D9;
+    border-radius :100%;
+}
+
+.deskstop {
+    max-width : 1400px;
+    margin-bottom : 60px;
+    display : flex;
+    justify-content : space-between;
+}
+
+.Hebergements_Marseille {
+    padding : 42px 40px 46px 40px;
+    width: 70%;
+
+    background: #F2F2F2;
+    border-radius: 20px;
+}
+
+.Annonces_Marseille {
+    margin-top : 15px;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content : space-between;
+}
+
+.Annonce_Hebergement {
+    display:flex;
+    flex-direction: column;
+    width : 29.5%;
+    height: 189px;
+    margin-bottom : 30px;
+    
+    background: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.photo_Annonce {
+    width: 100%;
+    height: 114px;
+    object-fit : cover;
+
+    border-radius: 20px 20px 0px 0px;
+}
+
+.contenu_Hebergement {
+    margin-top : 4px;
+    margin-left : 16px;
+    display:flex;
+    flex-direction : column;
+    height : 100%;
+    justify-content: space-between;
+}
+
+.description_Hebergement {
+    display:flex;
+    flex-direction : column;
+}
+
+/*marge bas de 5px au lieu de 9 sur la maquette car la taille du champs h3 est de 19 et pas de 15 */
+h3 {
+    margin :0px 0px 5px 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.prix{
+    height : 15px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.fa-star {
+    color: #0065FC;
+}
+
+.grey-star {
+    color :#F2F2F2;
+}
+
+#Afficher_plus {
+    margin : 10px 0px 0px 4px;
+}
+
+.Hebergements_Populaires {
+    padding : 42px 40px 0px 37px;
+    margin-left : 40px;
+    width:30%;
+
+    background: #F2F2F2;
+    border-radius: 20px;
+}
+
+#titre_section_Hebergements_Populaires {
+    display : flex;
+    justify-content: space-between;
+}
+
+#icone_Populaire {
+    color :#0065FC;
+}
+
+.Annonces_Populaires {
+    margin-top : 18px;
+}
+
+.Annonce_Populaire {
+    height: 144px;
+    margin-bottom :33px;
+    display : flex;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.photo_Populaire {
+    width: 37.03%;
+    height: 134px;
+    object-fit : cover;
+
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+}
+
+/* Titre h3 et prix avec marge gauche de 16px d'où left 152-16=136
+et width 169+16 = 185 pour prendre en compte la marge gauche de 16*/
+.contenu_Populaire {
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left : 15px;
+    width : 49.27%;
+    height : 100%;
+}
+
+.description_Populaire {
+    margin-top :  16px;
+}
+
+.Notation_Populaire {
+    margin-bottom : 12px;
+}
+
+.Activites_Marseille {
+    max-width : 1400px;
+    margin-bottom : 60.51px;
+}
+
+/* h1 comprend déjà margin bottom de 8 et taille 26, hors ici sur Figma taille 30 donc 18.47+4 = 22.47 -8 =14.47 */
+.Annonces_Activites {
+    margin-top : 14.47px;
+    display : flex;
+    justify-content: space-between;
+}
+
+.Annonce_Activite {
+    width: 22.59%;
+
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.photo_Activite {
+    height : 389px;
+    width: 100%;
+    object-fit : cover;
+
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* h3 de taille 19, hors ici sur Figma taille 15 21-4=17 - 5 pour la marge bottom*/
+.titre_Activite {
+    padding : 20px 0px 12px 19px;
+}
+
+footer {
+    max-width : 1003px;
+    padding : 45px 327px 58px 70px;
+    display : flex;
+    justify-content: space-between;
+
+    background: #F2F2F2;
+}
+
+ul {
+    padding-left : 0px;
+
+    list-style-type: none;
+}
+
+li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin : 12px 0px;
+}
+
+.titre_footer {
+    margin-bottom : 20px;
+}
