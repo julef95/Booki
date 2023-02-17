@@ -252,7 +252,7 @@ haut du cercle aligné avec le texte car dans le même bloc mais j'ai réussi à
 
 .photo_Annonce {
     width: 100%;
-    height: 114px;
+    min-height: 114px;
     object-fit : cover;
 
     border-radius: 20px 20px 0px 0px;
